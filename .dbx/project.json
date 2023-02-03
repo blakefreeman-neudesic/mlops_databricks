@@ -1,0 +1,33 @@
+{
+    "environments": {
+        "Sandbox": {
+            "profile": "Sandbox",
+            "storage_type": "mlflow",
+            "workspace_dir": "/Shared/e2e_mlops/dbx/e2e_mlops",
+            "artifact_location": "dbfs:/Shared/e2e_mlops/dbx/projects/e2e_mlops_dbx"
+        },
+        "Development": {
+            "profile": "Development",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Shared/e2e_mlops/dbx/e2e_mlops",
+                "artifact_location": "dbfs:/Shared/e2e_mlops/dbx/projects/e2e_mlops_dbx"
+            }
+        },
+        "UAT": {
+            "profile": "UAT",
+            "storage_type": "mlflow",
+            "workspace_dir": "/Shared/e2e_mlops/dbx/e2e_mlops",
+            "artifact_location": "dbfs:/Shared/e2e_mlops/dbx/projects/e2e_mlops_dbx"
+        },
+        "Production": {
+            "profile": "Production",
+            "storage_type": "mlflow",
+            "workspace_dir": "/Shared/e2e_mlops/dbx/e2e_mlops",
+            "artifact_location": "dbfs:/Shared/e2e_mlops/dbx/projects/e2e_mlops_dbx"
+        }
+    },
+    "inplace_jinja_support": true,
+    "failsafe_cluster_reuse_with_assets": false,
+    "context_based_upload_for_execute": false
+}
